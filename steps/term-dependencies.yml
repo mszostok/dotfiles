@@ -1,0 +1,13 @@
+---
+
+# Installing dependencies:
+- brewfile:
+    file: Brewfile
+    no-upgrade: true
+    stdout: true
+    stderr: true
+    include: ['tap', 'brew']
+
+- shell:
+      # To install useful key bindings and fuzzy completion:
+      - $(brew --prefix)/opt/fzf/install

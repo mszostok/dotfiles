@@ -1,0 +1,10 @@
+---
+
+# Installing dependencies:
+- brewfile:
+    file: Brewfile
+    no-upgrade: true
+    stdout: true
+    stderr: true
+    # only cask are installed
+    include: ['tap', 'cask']

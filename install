@@ -1,15 +1,39 @@
 #!/usr/bin/env bash
 
-set -e
+# Exporting the specific shell we want to work with:
 
-CONFIG="install.conf.yaml"
-DOTBOT_DIR="dotbot"
+SHELL='/bin/bash'
+export SHELL
 
-DOTBOT_BIN="bin/dotbot"
-BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# Standard dotbot pre-configuration:
 
-cd "${BASEDIR}"
+readonly DOTBOT_DIR='dotbot'
+readonly DOTBOT_BIN='bin/dotbot'
+readonly BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+readonly ARGS="$@"
+
+cd "$BASEDIR"
 git -C "${DOTBOT_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${DOTBOT_DIR}"
 
-"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+
+# Linking dotfiles:
+
+run_dotbot () {
+  local CONFIG
+  CONFIG="$1"
+
+  "$BASEDIR/$DOTBOT_DIR/$DOTBOT_BIN" \
+    -d "${BASEDIR}" \
+    --plugin-dir dotbot-brewfile \
+    -c "${CONFIG}"
+}
+
+#run_dotbot 'steps/terminal.yml' || true
+run_dotbot 'steps/term-dependencies.yml' || true
+
+if [ "$APPS" = true ]; then
+  run_dotbot 'steps/app-dependencies.yml' || true
+fi
+
