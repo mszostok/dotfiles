@@ -53,10 +53,12 @@ threshold = 30
 style = "bold red"
 
 [directory]
+format = "[$path]($style)[$read_only]($read_only_style) "
 style = "bold white"
 truncate_to_repo = true
 truncation_length = 1
-home_symbol = "​"
+truncation_symbol = " "
+home_symbol = ""
 
 [character]
 format = "$symbol"

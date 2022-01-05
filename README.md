@@ -1,5 +1,7 @@
 # mszostok's dotfiles
 
+![](./docs/assets/terminal.png)
+
 ## Contents
 
 What's in there?
