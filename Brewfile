@@ -20,3 +20,7 @@ cask "signal"
 cask "iterm2"
 cask "zoom"
 cask "vlc"
+mas "Meeter", id: 1510445899
+mas "Microsoft Outlook", id: 985367838
+mas "Slack", id: 803453959
+mas "Unsplash Wallpapers", id: 1284863847

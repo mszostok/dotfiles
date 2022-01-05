@@ -9,6 +9,8 @@ What's in there?
 - All my `brew` dependencies including: applications, fonts, etc. See [`Brewfile`](./Brewfile).
 
   >**NOTE:** Initial file was created via [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle).
+  > To dump the App Store applications the [`mas`](https://github.com/mas-cli/mas) needs to be installed.
+  > Finally, you can run: `brew bundle dump`.
 
 - All my `macOS` configuration. See [`macos`](./macos/).
 - All my shell configuration including my own theme See [`shell/`](./shell)

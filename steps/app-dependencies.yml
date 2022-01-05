@@ -6,5 +6,5 @@
     no-upgrade: true
     stdout: true
     stderr: true
-    # only cask are installed
-    include: ['tap', 'cask']
+    # only cask and mas are installed
+    include: ['tap', 'cask', 'mas']
