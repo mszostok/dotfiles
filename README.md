@@ -6,11 +6,13 @@
 
 What's in there?
 
-- all my `brew` dependencies including: applications, fonts, etc. See [`Brewfile`](./Brewfile)
-  - initial file was created via [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
-- all my `macOS` configuration. See [`macos`](./macos/)
-- all my shell configuration including my own theme See [`shell/`](./shell)
-  and [`config/zshrc`](./config/zshrc)
+- All my `brew` dependencies including: applications, fonts, etc. See [`Brewfile`](./Brewfile).
+
+  >**NOTE:** Initial file was created via [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle).
+
+- All my `macOS` configuration. See [`macos`](./macos/).
+- All my shell configuration including my own theme See [`shell/`](./shell)
+  and [`config/zshrc`](./config/zshrc).
 
 ## Installation
 
