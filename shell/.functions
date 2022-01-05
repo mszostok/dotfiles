@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Custom Functions
+fpath=( ~/.shell/zfunc "${fpath[@]}" )
+autoload pwd_info
+autoload doff
+autoload don
+
+
+# Completion
+autoload -U compinit
+compinit -i

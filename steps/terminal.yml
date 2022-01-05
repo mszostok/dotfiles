@@ -1,0 +1,37 @@
+---
+
+# This simply defines what directory should be inspected for dead links. Dead links are automatically removed.
+- clean: ['~']
+
+- link:
+    # Terminal:
+    ~/.shell:
+      path: shell
+      create: true
+    ~/.bash_profile: config/bash_profile
+    ~/.bashrc: config/bashrc
+    ~/.zshrc:
+      path: config/zshrc
+      force: true
+    ~/.shell_env: config/shell_env
+
+    ~/.hushlogin: config/hushlogin
+    ~/.inputrc: config/inputrc
+
+    # Git:
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+    ~/.gitattributes_global: config/gitattributes
+
+    # Editors:
+    ~/.editorconfig: config/editorconfig
+
+    # SSH:
+    ~/.ssh/config:
+      path: config/ssh_config
+      force: true
+      create: true
+
+- shell:
+    # clone the zsh highlighting
+    - git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting || true

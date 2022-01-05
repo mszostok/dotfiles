@@ -1,0 +1,79 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Which is equivalent to
+format = """
+$username\
+$hostname\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$docker_context\
+$package\
+$cmake\
+$cobol\
+$dart\
+$deno\
+$dotnet\
+$elixir\
+$elm\
+$erlang\
+$golang\
+$helm\
+$java\
+$julia\
+$kotlin\
+$lua\
+$nim\
+$nodejs\
+$ocaml\
+$perl\
+$php\
+$pulumi\
+$purescript\
+$python\
+$rlang\
+$red\
+$ruby\
+$rust\
+$scala\
+$swift\
+$terraform\
+$vlang\
+$vagrant\
+$zig\
+$nix_shell\
+$conda\
+$memory_usage\
+$aws\
+$gcloud\
+$openstack\
+$azure\
+$env_var\
+$crystal\
+$custom\
+$sudo\
+$cmd_duration\
+$jobs\
+$battery\
+$time\
+$status\
+$shell\
+$character"""
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = "[▲](green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = "[▲](bold red)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true

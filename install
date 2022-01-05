@@ -30,10 +30,9 @@ run_dotbot () {
     -c "${CONFIG}"
 }
 
-#run_dotbot 'steps/terminal.yml' || true
 run_dotbot 'steps/term-dependencies.yml' || true
-
 if [ "$APPS" = true ]; then
   run_dotbot 'steps/app-dependencies.yml' || true
 fi
 
+run_dotbot 'steps/terminal.yml' || true

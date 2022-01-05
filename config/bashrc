@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# This file must be empty
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

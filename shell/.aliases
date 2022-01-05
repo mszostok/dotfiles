@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+# `.aliases` is used to provide custom variables.
+#
+# This file is used as a part of `.shell_env`
+
+
+# === Aliases ===
+
+# Sorts directories in top, colors, and prints `/` at directories:
+alias ls="gls --color -h --group-directories-first -F"
+
+# Show local ip:
+alias localip="ipconfig getifaddr en0"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+alias -g del="delete"
+
+alias ccat="/bin/cat"
+alias cat="bat"
+
+### >>> CAPACT
+alias -g spec="| jq -r '.[0].latestResourceVersion.spec.value'"
+alias -g tiout="| jq '.Actions[0].output.typeInstances'"
+### <<< CAPACT
+
+alias -g kc="kubectl"

@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# `.exports` is used to provide custom variables.
+#
+# This file is used as a part of `.shell_env`
+
+
+# === General ===
+
+# Homebrew:
+export HOMEBREW_NO_ANALYTICS=1  # disables statistics that brew collects
+
+# Pagers:
+# This affects every invocation of `less`.
+#
+#   -i   case-insensitive search unless search string contains uppercase letters
+#   -R   color
+#   -F   exit if there is less than one page of content
+#   -X   keep content on screen after exit
+#   -M   show more info at the bottom prompt line
+#   -x4  tabs are 4 instead of 8
+export LESS="-iRFXMx4"
+export PAGER='less'
+export MANPAGER='less'
+
+# === Code highlight ===
+# https://github.com/zsh-users/zsh-syntax-highlighting
+
+# We won't highlight code longer than 200 chars, because it is slow:
+export ZSH_HIGHLIGHT_MAXLENGTH=200
+
+# === starship ===
+export STARSHIP_CONFIG=~/.shell/starship.toml
+
+
+# === PATH ===
+
+# This should be the last line:
+export PATH
