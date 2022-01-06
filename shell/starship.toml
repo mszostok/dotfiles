@@ -85,6 +85,10 @@ stashed = "$ "
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
 style = "bright-black"
 
+[golang]
+format = "[($version)]($style)"
+style = "italic dimmed white"
+
 [cmd_duration]
 format = "[$duration]($style) "
 style = "yellow"
