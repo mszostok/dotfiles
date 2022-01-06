@@ -13,7 +13,7 @@ What's in there?
   > Finally, you can run: `brew bundle dump`.
 
 - All my `macOS` configuration. See [`macos`](./macos/).
-- All my shell configuration including my own theme See [`shell/`](./shell)
+- All my shell configuration including my own theme. See [`shell/`](./shell)
   and [`config/zshrc`](./config/zshrc).
 
 ## Installation
