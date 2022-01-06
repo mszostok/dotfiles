@@ -20,11 +20,14 @@ What's in there?
 
 The [`dotbot`](https://github.com/anishathalye/dotbot/) is used to set things up. Steps:
 
-1. Clone this repo with: `git clone --depth 1 https://github.com/mszostok/dotfiles dotfiles`
-2. `cd dotfiles/`
-3. Run: [`./install`](./install)
-
+1. Clone this repo with: `git clone --depth 1 https://github.com/mszostok/dotfiles dotfiles && cd dotfiles/`
+2. Install applications: [`./install`](./install)
    >**NOTE:** To install macOS Applications export `APPS=true` environment variable.
+3. Configure macOS settings: `./macos/settings.sh`
+4. Set iTerm2 preferences:
+   1. Go to Preferences > General.
+   2. Enable Load preferences from a custom folder or URL
+   3. Click Browse and select [`./config/iterm`](./config/iterm)
 
 ## CLI
 
