@@ -26,6 +26,9 @@
     # Editors:
     ~/.editorconfig: config/editorconfig
 
+    # Mackup:
+    ~/.mackup.cfg: config/mackup.cfg
+
     # SSH:
     ~/.ssh/config:
       path: config/ssh_config
