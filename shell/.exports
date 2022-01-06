@@ -32,6 +32,8 @@ export ZSH_HIGHLIGHT_MAXLENGTH=200
 # === starship ===
 export STARSHIP_CONFIG=~/.shell/starship.toml
 
+# === Wakatime ===
+export ZSH_WAKATIME_BIN=/usr/local/bin/wakatime-cli
 
 # === PATH ===
 

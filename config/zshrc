@@ -38,6 +38,7 @@ zstyle ':omz:update' mode reminder
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   gitfast
+  wakatime
   globalias
 )
 

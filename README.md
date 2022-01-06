@@ -23,9 +23,10 @@ The [`dotbot`](https://github.com/anishathalye/dotbot/) is used to set things up
    > **NOTE:** To install macOS Applications export `APPS=true` environment variable.
 3. Configure macOS settings: `./macos/settings.sh`
 4. Set iTerm2 preferences:
-1. Go to Preferences > General.
-2. Enable Load preferences from a custom folder or URL
-3. Click Browse and select [`./config/iterm`](./config/iterm)
+   1. Go to **Preferences > General**
+   2. Enable **Load preferences from a custom folder or URL**
+   3. Click Browse and select [`./config/iterm`](./config/iterm)
+5. Read [manual-step.md](./docs/manual-step.md) to finish configuration.
 
 ## CLI
 
