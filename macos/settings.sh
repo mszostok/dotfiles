@@ -88,9 +88,6 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bo
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Warsaw" > /dev/null
 
-# Stop iTunes from responding to the keyboard media keys
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
-
 # Prevent Bluetooth devices to wake this computer
 defaults -currentHost write com.apple.Bluetooth RemoteWakeEnabled 0
 
