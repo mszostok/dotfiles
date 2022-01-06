@@ -11,3 +11,4 @@ _Just login to JetBrains account, as data is saved there._
    - `cmd + 1` - Project
    - `cmd + 2` - Terminal
    - `cmd + 3` - Git
+4. Set Tab placement to `None`
