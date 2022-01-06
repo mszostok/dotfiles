@@ -30,5 +30,7 @@ ZSH_HIGHLIGHT_STYLES[alias]=fg=yellow,bold
 ZSH_HIGHLIGHT_STYLES[builtin]=fg=yellow,bold
 ZSH_HIGHLIGHT_STYLES[function]=fg=yellow,bold
 ZSH_HIGHLIGHT_STYLES[command]=fg=yellow,bold
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
