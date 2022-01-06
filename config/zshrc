@@ -39,6 +39,7 @@ zstyle ':omz:update' mode reminder
 plugins=(
   gitfast
   wakatime
+  per-directory-history
   globalias
 )
 

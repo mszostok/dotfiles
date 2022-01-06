@@ -19,6 +19,7 @@ brew "node"
 brew "wakatime-cli"
 brew "go"
 brew "exa"
+brew "goreleaser/tap/goreleaser"
 cask "font-hack-nerd-font"
 cask "font-fira-code"
 cask "brave-browser"
@@ -27,6 +28,7 @@ cask "signal"
 cask "iterm2"
 cask "zoom"
 cask "vlc"
+cask "microsoft-office"
 mas "Meeter", id: 1510445899
 mas "Microsoft Outlook", id: 985367838
 mas "Slack", id: 803453959
