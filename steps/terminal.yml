@@ -37,6 +37,6 @@
 
 - shell:
     # clone the zsh highlighting
-    - git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting || true
+    - git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting || (cd ~/.zsh-syntax-highlighting; git pull)
     # clone wakatime plugin
-    - git clone --depth 1 https://github.com/sobolevn/wakatime-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/wakatime || true
+    - git clone --depth 1 https://github.com/sobolevn/wakatime-zsh-plugin.git ~/.oh-my-zsh/custom/plugins/wakatime || (cd ~/.oh-my-zsh/custom/plugins/wakatime; git pull)
