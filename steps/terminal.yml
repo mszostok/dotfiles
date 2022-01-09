@@ -35,6 +35,10 @@
       force: true
       create: true
 
+    # tmux:
+    ~/.tmux.conf:
+      path: config/tmux.conf
+
 - shell:
     # clone the zsh highlighting
     - git clone --depth 1 https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting || (cd ~/.zsh-syntax-highlighting; git pull)

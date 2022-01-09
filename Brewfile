@@ -26,6 +26,7 @@ brew "kubectl"
 brew "git-crypt"
 brew "k3d"
 brew "kubectx"
+brew "tmux"
 
 cask "font-hack-nerd-font"
 cask "font-fira-code"

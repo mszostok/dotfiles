@@ -42,3 +42,7 @@ alias -g kc="kubectl"
 
 alias kctx=kubectx
 alias kns=kubens
+
+### tmux
+alias vsplit="tmux split -v"
+alias hsplit="tmux split -h"
