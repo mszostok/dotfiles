@@ -37,3 +37,8 @@ alias -g tiout="| jq '.Actions[0].output.typeInstances'"
 ### <<< CAPACT
 
 alias -g kc="kubectl"
+
+### kubectx
+
+alias kctx=kubectx
+alias kns=kubens

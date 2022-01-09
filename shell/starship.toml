@@ -89,6 +89,10 @@ style = "bright-black"
 format = "[($version)]($style) "
 style = "italic dimmed white"
 
+[kubernetes]
+format = '[☸ $context(:$namespace)](dimmed blue) '
+disabled = false
+
 [cmd_duration]
 format = "[$duration]($style) "
 style = "yellow"

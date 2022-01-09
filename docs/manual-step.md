@@ -22,3 +22,8 @@ the [wakatime-cli](https://github.com/wakatime/wakatime-cli) needs to be install
 
 The Wakatime CLI is defined in [Brewfile](../Brewfile). The only thing is to make sure your API Key is in
 your `~/.wakatime.cfg` file.
+
+
+### Obsidian
+
+Setup Git repository base on this tutorial: https://renerocks.ai/blog/obsidian-encrypted-github-android/

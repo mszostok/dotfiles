@@ -136,3 +136,5 @@
 [commit]
 	gpgsign = true
 	template = /Users/mszostok/.stCommitMsg
+[gpg]
+	program = /usr/local/bin/gpg
