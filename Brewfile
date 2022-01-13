@@ -28,6 +28,7 @@ brew "k3d"
 brew "kubectx"
 brew "tmux"
 
+cask "google-cloud-sdk"
 cask "font-hack-nerd-font"
 cask "font-fira-code"
 cask "brave-browser"
