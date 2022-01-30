@@ -96,3 +96,6 @@ disabled = false
 [cmd_duration]
 format = "[$duration]($style) "
 style = "yellow"
+
+[gcloud]
+disabled = true
