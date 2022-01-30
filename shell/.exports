@@ -41,6 +41,9 @@ export ZSH_WAKATIME_BIN=/usr/local/bin/wakatime-cli
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$(go env GOPATH)/bin
 
+# === NODE ===
+export PATH="/usr/local/opt/node@16/bin:$PATH"
+
 # === PATH ===
 
 # This should be the last line:

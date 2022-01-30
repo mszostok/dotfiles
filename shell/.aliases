@@ -4,7 +4,6 @@
 #
 # This file is used as a part of `.shell_env`
 
-
 # === Aliases ===
 
 # Sorts directories in top, colors, and prints `/` at directories:
@@ -19,7 +18,7 @@ alias localip="ipconfig getifaddr en0"
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
 
 # Get macOS Software Updates, and update installed, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; omz update;'
 
 # Disable Spotlight
 alias spotoff="sudo mdutil -a -i off"

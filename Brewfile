@@ -28,6 +28,7 @@ brew "k3d"
 brew "kubectx"
 brew "tmux"
 brew "golangci-lint"
+brew "mas"
 
 cask "google-cloud-sdk"
 cask "font-hack-nerd-font"

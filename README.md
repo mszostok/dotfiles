@@ -48,6 +48,10 @@ Some used tools require local configuration. Such as `git` with username and ema
 The [mackup](https://github.com/lra/mackup) tool seems to be great. It's included in [Brewfile](./Brewfile), and
 its [configuration](./config/mackup.cfg) is available automatically, but I don't use it for now.
 
+## Possible Alternatives
+
+- https://github.com/twpayne/chezmoi/
+
 ## License
 
 Inspired by [sobolevn/dotfiles](https://github.com/sobolevn/dotfiles). The transitive license applies with one
