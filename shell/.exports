@@ -38,6 +38,7 @@ export ZSH_WAKATIME_BIN=/usr/local/bin/wakatime-cli
 # === Go ===
 # The GOPATH environment variable specifies the location of your workspace. It defaults to a directory named go inside your home directory, so $HOME/go
 # but I want to have it in different place
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$(go env GOPATH)/bin
 

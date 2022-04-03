@@ -16,9 +16,9 @@ brew "zsh-syntax-highlighting"
 brew "gitleaks"
 brew "mackup"
 brew "zsh-autosuggestions"
-brew "node"
 brew "wakatime-cli"
-brew "go"
+brew "upx"
+brew "n"
 brew "exa"
 brew "goreleaser/tap/goreleaser"
 brew "helm"
@@ -46,3 +46,4 @@ mas "Meeter", id: 1510445899
 mas "Microsoft Outlook", id: 985367838
 mas "Slack", id: 803453959
 mas "Unsplash Wallpapers", id: 1284863847
+mas "AS Timer", id: 512464723

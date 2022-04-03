@@ -99,3 +99,6 @@ style = "yellow"
 
 [gcloud]
 disabled = true
+
+[aws]
+disabled = true
