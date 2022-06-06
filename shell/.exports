@@ -45,6 +45,12 @@ export PATH=$PATH:$(go env GOPATH)/bin
 # === NODE ===
 export PATH="/usr/local/opt/node@16/bin:$PATH"
 
+# === PSQL ===
+export PATH="/usr/local/opt/libpq/bin:$PATH"
+
+# === KREW ===
+export PATH="${PATH}:${HOME}/.krew/bin"
+
 # === PATH ===
 
 # This should be the last line:

@@ -53,3 +53,11 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 source "$HOME/.shell_env"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Prevents the slow paste:
+# https://github.com/zsh-users/zsh-syntax-highlighting/issues/295#issuecomment-214581607
+zstyle ':bracketed-paste-magic' active-widgets '.self-*'
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/mszostok/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
