@@ -45,3 +45,15 @@ alias kns=kubens
 ### tmux
 alias vsplit="tmux split -v"
 alias hsplit="tmux split -h"
+
+## k9s
+
+alias k="k9s"
+
+# =============================================================================
+#
+# Commands for zoxide. Disable these using --no-cmd.
+#
+
+\builtin alias -g cd=__zoxide_z
+\builtin alias -g cdi=__zoxide_zi

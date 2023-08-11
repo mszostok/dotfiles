@@ -51,6 +51,10 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 # === KREW ===
 export PATH="${PATH}:${HOME}/.krew/bin"
 
+# === RUBY ===
+export PATH="/usr/local/opt/ruby/bin:${PATH}"
+export PATH="/Users/mszostok/.gem/ruby/3.1.0/bin:${PATH}"
+
 # === PATH ===
 
 # This should be the last line:

@@ -2,6 +2,11 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "goreleaser/tap"
+tap "cloudflare/cloudflare"
+tap "ngrok/ngrok"
+tap "tomanthony/brews"
+tap "knqyf263/pet"
 
 brew "bat"
 brew "gh"
@@ -34,7 +39,21 @@ brew "go"
 brew "mkcert"
 brew "mkdocs"
 brew "krew"
-brew "lima"
+
+brew "tomanthony/brews/itermocil"
+brew "gnu-sed"
+brew "gnutls"
+brew "glib"
+brew "findutils"
+brew "wget"
+brew "node"
+brew "goreleaser"
+brew "mage"
+brew "knqyf263/pet/pet"
+brew "kubernetes-cli"
+brew "qemu"
+brew "cloudflare/cloudflare/cloudflared"
+
 
 cask "google-cloud-sdk"
 cask "font-hack-nerd-font"
@@ -45,11 +64,14 @@ cask "signal"
 cask "iterm2"
 cask "zoom"
 cask "vlc"
-cask "microsoft-office"
-cask "obsidian"
+cask "ngrok"
+cask "stats"
+cask "notion"
 
 mas "Meeter", id: 1510445899
-mas "Microsoft Outlook", id: 985367838
 mas "Slack", id: 803453959
 mas "Unsplash Wallpapers", id: 1284863847
 mas "AS Timer", id: 512464723
+mas "Be Focused", id: 973134470
+mas "Gifski", id: 1351639930
+

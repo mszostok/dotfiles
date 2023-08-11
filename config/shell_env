@@ -10,6 +10,7 @@ source "$HOME/.shell/.exports"
 source "$HOME/.shell/.aliases"
 source "$HOME/.shell/.functions"
 source "$HOME/.shell/.external"
+source "$HOME/.shell/.zoxide"
 
 
 # === Local variables and overrides ===

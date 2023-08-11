@@ -86,12 +86,13 @@ format = '\([$state( $progress_current/$progress_total)]($style)\) '
 style = "bright-black"
 
 [golang]
+disabled = true
 format = "[($version)]($style) "
 style = "italic dimmed white"
 
 [kubernetes]
 format = '[☸ $context(:$namespace)](dimmed blue) '
-disabled = false
+disabled = true
 
 [cmd_duration]
 format = "[$duration]($style) "
@@ -101,4 +102,6 @@ style = "yellow"
 disabled = true
 
 [aws]
+disabled = true
+[python]
 disabled = true

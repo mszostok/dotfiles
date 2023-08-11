@@ -93,7 +93,7 @@ instance/
 docs/_build/
 
 # PyBuilder
-target/
+/target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -179,7 +179,6 @@ dist/
 #### elixir ####
 /_build
 /cover
-/deps
 erl_crash.dump
 *.ez
 *.beam
