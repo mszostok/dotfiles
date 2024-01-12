@@ -51,9 +51,19 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 # === KREW ===
 export PATH="${PATH}:${HOME}/.krew/bin"
 
+# === IntelliJ ===
+export PATH="${PATH}:/Applications/IntelliJ IDEA.app/Contents/MacOS"
+
 # === RUBY ===
 export PATH="/usr/local/opt/ruby/bin:${PATH}"
-export PATH="/Users/mszostok/.gem/ruby/3.1.0/bin:${PATH}"
+export PATH="/Users/$USER/.gem/ruby/3.1.0/bin:${PATH}"
+
+# === KUBECONFIG ===
+export KUBECONFIG=/Users/$USER/.kube/config
+
+# === GPG ===
+GPG_TTY=$(tty)
+export GPG_TTY
 
 # === PATH ===
 

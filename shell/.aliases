@@ -49,6 +49,7 @@ alias hsplit="tmux split -h"
 ## k9s
 
 alias k="k9s"
+alias -g skip=" --set analytics.disable=true"
 
 # =============================================================================
 #

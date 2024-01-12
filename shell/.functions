@@ -5,6 +5,7 @@ fpath=( ~/.shell/zfunc "${fpath[@]}" )
 autoload pwd_info
 autoload doff
 autoload don
+autoload gray
 
 
 # Completion

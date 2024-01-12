@@ -7,7 +7,6 @@ $cmake\
 $singularity\
 $kubernetes\
 $helm\
-$docker_context\
 $golang\
 $nodejs\
 $python\
@@ -44,6 +43,7 @@ files = [".zshrc"]
 format = "[▲](white) "
 
 [battery]
+disabled = true
 full_symbol = "🔋"
 charging_symbol = "🔌"
 discharging_symbol = "⚡"
