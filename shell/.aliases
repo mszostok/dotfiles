@@ -50,11 +50,3 @@ alias hsplit="tmux split -h"
 
 alias k="k9s"
 alias -g skip=" --set analytics.disable=true"
-
-# =============================================================================
-#
-# Commands for zoxide. Disable these using --no-cmd.
-#
-
-\builtin alias -g cd=__zoxide_z
-\builtin alias -g cdi=__zoxide_zi

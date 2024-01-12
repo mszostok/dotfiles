@@ -11,11 +11,6 @@ eval "$(gh completion -s zsh)"  # adds autocomplete for `gh` tool
 # === fzf ===
 [ -f ~/.shell/.fzf.zsh ] && source ~/.shell/.fzf.zsh
 
-# === z ===
-# https://github.com/ajeetdsouza/zoxide
-
-eval "$(zoxide init zsh --cmd cd)"
-
 # === starship ===
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
