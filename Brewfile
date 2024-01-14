@@ -1,10 +1,7 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "goreleaser/tap"
 tap "cloudflare/cloudflare"
-tap "ngrok/ngrok"
 tap "tomanthony/brews"
 tap "knqyf263/pet"
 
@@ -22,7 +19,6 @@ brew "mackup"
 brew "zsh-autosuggestions"
 brew "wakatime-cli"
 brew "upx"
-brew "n"
 brew "exa"
 brew "goreleaser/tap/goreleaser"
 brew "helm"
@@ -33,12 +29,14 @@ brew "kubectx"
 brew "tmux"
 brew "golangci-lint"
 brew "mas"
-brew "hugo"
 brew "go"
 brew "mkcert"
 brew "mkdocs"
 brew "krew"
-
+brew "zoxide"
+brew "git"
+brew "atuin"
+brew "gnupg"
 brew "tomanthony/brews/itermocil"
 brew "gnu-sed"
 brew "gnutls"
@@ -57,20 +55,19 @@ brew "cloudflare/cloudflare/cloudflared"
 cask "google-cloud-sdk"
 cask "font-hack-nerd-font"
 cask "font-fira-code"
-cask "brave-browser"
 cask "spotify"
 cask "signal"
 cask "iterm2"
 cask "zoom"
 cask "vlc"
-cask "ngrok"
-cask "stats"
 cask "notion"
+cask "cron"
+cask "whatsapp"
+cask "docker"
+cask "rectangle"
+# cask "stats" # not use currently
 
-mas "Meeter", id: 1510445899
 mas "Slack", id: 803453959
 mas "Unsplash Wallpapers", id: 1284863847
 mas "AS Timer", id: 512464723
-mas "Be Focused", id: 973134470
 mas "Gifski", id: 1351639930
-

@@ -18,6 +18,12 @@ eval "$(starship init zsh)"
 # === zsh-syntax-highlighting ===
 # https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 
+# === zoxide ===
+eval "$(zoxide init --cmd cd zsh)"
+
+# === atuin - shell history ===
+eval "$(atuin init zsh --disable-up-arrow)"
+
 # Declare the variable
 typeset -A ZSH_HIGHLIGHT_STYLES
 
@@ -32,3 +38,6 @@ source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # === gcloud ===
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+# === wakatime ===
+source ~/.oh-my-zsh/custom/plugins/wakatime/wakatime.plugin.zsh

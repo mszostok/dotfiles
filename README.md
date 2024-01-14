@@ -30,8 +30,7 @@ The [`dotbot`](https://github.com/anishathalye/dotbot/) is used to set things up
 
 ## CLI
 
-The [iTerm2](https://iterm2.com/) is used along with [`zsh`](https://github.com/zsh-users/zsh)
-and [`oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) as the main shell.
+The [iTerm2](https://iterm2.com/) is used along with [`zsh`](https://github.com/zsh-users/zsh) as the main shell.
 
 ## Apps
 
