@@ -15,14 +15,14 @@ eval "$(gh completion -s zsh)"  # adds autocomplete for `gh` tool
 # https://github.com/starship/starship
 eval "$(starship init zsh)"
 
-# === zsh-syntax-highlighting ===
-# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-
 # === zoxide ===
 eval "$(zoxide init --cmd cd zsh)"
 
 # === atuin - shell history ===
 eval "$(atuin init zsh --disable-up-arrow)"
+
+# === zsh-syntax-highlighting ===
+# https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 
 # Declare the variable
 typeset -A ZSH_HIGHLIGHT_STYLES
@@ -41,3 +41,6 @@ source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/compl
 
 # === wakatime ===
 source ~/.oh-my-zsh/custom/plugins/wakatime/wakatime.plugin.zsh
+
+# === per-directory-history ===
+source ~/.oh-my-zsh/custom/plugins/per-directory-history/per-directory-history.zsh
